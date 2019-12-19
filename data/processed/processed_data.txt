@@ -1,0 +1,7 @@
+#Processed data
+
+Save all processed data files here - both interim and final versions
+
+Try to keep filenames relatively short
+
+Separate words using underscores (e.g. 'my_data.csv')
