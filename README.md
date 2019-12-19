@@ -1,7 +1,7 @@
 # hackathon-2020
 Code repository for the first Beale group Hackathon
 
-##Coding style guidelines:
+## Coding style guidelines:
 
 ### 1. Script structure:
 
