@@ -1,6 +1,6 @@
 require(reshape2)
 
-mergeGEE <- function(df, col.name){
+transformGEE <- function(df, col.name){
   
   #select sitecode column and relevant data columns from GEE
   #if data is up to 2017 
