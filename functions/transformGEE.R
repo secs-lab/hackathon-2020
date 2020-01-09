@@ -3,8 +3,13 @@ require(reshape2)
 transformGEE <- function(df, col.name){
   
   #select sitecode column and relevant data columns from GEE
+  
+  if(ncol(df) == 29){
+    
+    df2 <- df[, c(26, 2:17)]
+    
   #if data is up to 2017 
-  if(ncol(df) == 30){
+  } else if(ncol(df) == 30){
     
     df2 <- df[, c(27, 2:18)]
     
@@ -23,8 +28,6 @@ transformGEE <- function(df, col.name){
   
   df3$year <- substr(df3$year, 2, 5)
   
-  #names(dat3)[3] <- substr(as.character(dat3[1,2]), 7, nchar(as.character(dat3[1,2])))
-  
-  
+
   return(df3)
 }
