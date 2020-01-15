@@ -27,7 +27,7 @@ dur.dry.long   <- transformGEE(dur.dry.wide, "dur_dry")
 max.dry.long   <- transformGEE(max.dry.wide, "max_dry")
 min.dry.long   <- transformGEE(min.dry.wide, "min_dry")
 drought.long   <- transformGEE(drought.wide, "drought")
-tree.dens.long <- transformGEE(tree.dens.wide, "tree.dens")
+tree.dens.long <- transformGEE(tree.dens.wide, "tree_dens")
 tree.inc.long  <- transformGEE(tree.inc.wide, "inc_tc")
 tree.dec.long  <- transformGEE(tree.dec.wide, "dec_tc")
 
