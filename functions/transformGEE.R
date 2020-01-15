@@ -13,6 +13,10 @@ transformGEE <- function(df, col.name){
     
     df2 <- df[, c(27, 2:18)]
     
+  } else if(ncol(df) == 31){
+    
+    df2 <- df[, c(28, 2:18)]
+    
   #if data is up to 2019
   } else if (ncol(df) == 32){
     
